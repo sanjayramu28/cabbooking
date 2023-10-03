@@ -59,3 +59,25 @@
 .nav-tabs {
     border-bottom: none !important;
 }
+.bgimgride
+{
+    background-image: url("https://img.freepik.com/free-photo/supersport-car-cyberpunk-city-with-neon-lights-generative-ai_191095-1234.jpg?size=626&ext=jpg&ga=GA1.2.11406635.1692806813&semt=sph");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+.cfacilities
+{
+    background-color: aquamarine;
+    height: 50vh;
+}
+.ridehead
+{
+    padding: 5px;
+}
+.ridehead :hover 
+{
+    background-color: white;
+    border-radius: 5px;
+    transition: 0.6s;
+}
