@@ -15,7 +15,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Cab Reservation Or Booking system</title>
-    <link rel="stylesheet" href="cabbook.css">
+    <link rel="stylesheet" href="../../public/assests/css/cabbook.css">
     <link rel="icon"
         href="https://cdn-user-icons.flaticon.com/116851/116851778/1694933370779.svg?token=exp=1694934288~hmac=c57675246c311010e227300424f0ffb5">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -44,7 +44,7 @@
             <div class="col-lg-6">
                 <img src="https://cdn-icons-png.flaticon.com/128/1023/1023350.png" width="50px" height="40px">
             </div>
-            <div class="col-lg-4 ">
+            <div class="col-lg-6       ">
                 <div class="navbar">
                     <a href="cabbook.html" class="navs">Home</a>
                     <a href="cabbookabt.html" class="navs">About us</a>
@@ -65,37 +65,18 @@
                     </div>
     
                 </div>
-                <div class="col-lg-6 p-2">
-                    <!-- <div class="card m-4 " style="background-color: #e52165; border-radius: 20px;">
-                        <div class="row m-4">
-                            <div class="col-lg-6">
-                                <button class="btn btn-secondary one-way" style="width: 100%;" id="btn1" >One Way</button>
-                            </div>
-                            <div class="col-lg-6">
-                                <button class="btn btn-secondary two-way" style="width: 100%;" >Two Way</button>
-                            </div>
-                        </div>
-                        <input type="text" placeholder="Enter Pickup Location" class="m-4 p-2">
-                        <input type="text" placeholder="Drop A Location" class="m-4 p-2">
-                        <input type="datetime-local" placeholder="Time" class="m-4 p-2">
-                        <p class="justify-content-center text-center">
-                            <a href="cab.html"> <button class="btn btn-warning btn-rounded" style="border-radius: 20px;">Search
-                                Cabs</button></a>
-                        </p>
-    
-                    </div> -->
-    
+                <div class="col-lg-6 p-2">    
                     <div class=" shadow-lg p-3 border">
                         <ul class="nav1 nav nav-tabs justify-content-center" id="myTab" role="tablist">
                             <li class="nav-item w-50" role="presentation">
                                 <button class="nav-link active w-100" id="home-tab" data-bs-toggle="tab"
                                     data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
-                                    aria-selected="true">Home</button>
+                                    aria-selected="true">One-Way</button>
                             </li>
                             <li class="nav-item w-50" role="presentation">
                                 <button class="nav-link w-100" id="profile-tab" data-bs-toggle="tab"
                                     data-bs-target="#profile-tab-pane" type="button" role="tab"
-                                    aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+                                    aria-controls="profile-tab-pane" aria-selected="false">Two-Way</button>
                             </li>
         
                         </ul>
@@ -103,6 +84,7 @@
                             <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
                                 aria-labelledby="home-tab" tabindex="0">
                                 <form id="one-way">
+                                    <input type="tel" placeholder="Your Mobile Number" class="m-4 p-2" style="width: 90%;"><br>
                                     <input type="text" placeholder="Enter Pickup Location" class="m-4 p-2"
                                         style="width: 90%;"><br>
                                     <input type="text" placeholder="Drop A Location" class="m-4 p-2" style="width: 90%;">
@@ -282,7 +264,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 ">
-                        <div style="background-color: white; box-sizing: content-box;">
+                        <div style="background-color: white; box-sizing: content-box;" class="shadow-lg">
                             <div class="m-4 p-2">
                                 <i class="fa-solid fa-star" style="color: gold;"></i>
                                 <i class="fa-solid fa-star" style="color: gold;"></i>
@@ -302,7 +284,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 ">
-                        <div style="background-color: white;  box-sizing: border-box;">
+                        <div style="background-color: white;  box-sizing: border-box;" class="shadow-lg">
                             <div class="m-4 p-2">
                                 <i class="fa-solid fa-star" style="color: gold;"></i>
                                 <i class="fa-solid fa-star" style="color: gold;"></i>
@@ -319,8 +301,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 ">
-                        <div style="background-color: white; box-sizing: border-box;">
+                    <div class="col-lg-4">
+                        <div style="background-color: white; box-sizing: border-box;" class="shadow-lg">
                             <div class="m-4 p-2">
                                 <i class="fa-solid fa-star" style="color: gold;"></i>
                                 <i class="fa-solid fa-star" style="color: gold;"></i>
