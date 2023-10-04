@@ -74,3 +74,12 @@ td {
     border: 1px solid black;
 
 }
+.loc
+{
+    font-size: 30px;
+    font-style: oblique;
+    background-color: aquamarine;
+    width: 25vh;
+    text-align: center;
+    padding: 3px;
+}
