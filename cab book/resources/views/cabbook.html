@@ -48,9 +48,9 @@
                 <div class="navbar">
                     <a href="cabbook.html" class="navs">Home</a>
                     <a href="cabbookabt.html" class="navs">About us</a>
-                    <a href="#\" class="navs">Ride Facilities</a>
-                    <a href="#" class="navs">Tarriff</a>
-                    <a href="#" class="navs">Contact Us</a>
+                    <a href="cabride.html " class="navs">Ride Facilities</a>
+                    <a href="cabtarrif.html" class="navs">Tarriff</a>
+                    <a href="cabcontact.html" class="navs">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -84,24 +84,25 @@
                             <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
                                 aria-labelledby="home-tab" tabindex="0">
                                 <form id="one-way">
-                                    <input type="tel" placeholder="Your Mobile Number" class="m-4 p-2" style="width: 90%;"><br>
+                                    <input type="tel" placeholder="Your Mobile Number" id="one-waytel" class="m-4 p-2" style="width: 90%;"><br>
                                     <input type="text" placeholder="Enter Pickup Location" class="m-4 p-2"
                                         style="width: 90%;"><br>
                                     <input type="text" placeholder="Drop A Location" class="m-4 p-2" style="width: 90%;">
                                     <br>
                                     <input type="datetime-local" placeholder="Time" class="m-4 p-2" style="width: 90%;">
-                                    <p class="justify-content-center text-center">
-                                        <a href="cab.html"> <button class="btn btn-warning btn-rounded"
+                                   
+                                </form> 
+                                <p class="justify-content-center text-center">
+                                        <a href="cab.html"> <button class="btn btn-warning btn-rounded" id="bttn"
                                                 style="border-radius: 20px;">Search
                                                 Cabs</button></a>
                                     </p>
-                                </form>
                             </div>
                             <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
                                 tabindex="0">
                                 <form id="two-way">
                                     <input type="text" placeholder="Enter Pickup Location" class="m-4 p-2"
-                                        style="width: 90%;"><br>
+                                        style="width: 90%;" value="9087661022"><br>
                                     <input type="text" placeholder="Drop A Location" class="m-4 p-2" style="width: 90%;">
                                     <br>
                                     <p class="ms-4 mt-4">Enter a Start Date</p>
@@ -264,7 +265,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 ">
-                        <div style="background-color: white; box-sizing: content-box;" class="shadow-lg">
+                        <div style="background-color: white; box-sizing: content-box;" class="shadow-lg" id="star">
                             <div class="m-4 p-2">
                                 <i class="fa-solid fa-star" style="color: gold;"></i>
                                 <i class="fa-solid fa-star" style="color: gold;"></i>
@@ -284,7 +285,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 ">
-                        <div style="background-color: white;  box-sizing: border-box;" class="shadow-lg">
+                        <div style="background-color: white;  box-sizing: border-box;"  id="star">
                             <div class="m-4 p-2">
                                 <i class="fa-solid fa-star" style="color: gold;"></i>
                                 <i class="fa-solid fa-star" style="color: gold;"></i>
@@ -302,7 +303,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div style="background-color: white; box-sizing: border-box;" class="shadow-lg">
+                        <div style="background-color: white; box-sizing: border-box;" class="shadow-lg" id="star">
                             <div class="m-4 p-2">
                                 <i class="fa-solid fa-star" style="color: gold;"></i>
                                 <i class="fa-solid fa-star" style="color: gold;"></i>
@@ -355,7 +356,7 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/27186d12e4.js" crossorigin="anonymous"></script>
-    <script src="cabbook.js"></script>
+    <script src="../../public/assests/js/cabbook.js"></script>
 </body>
 
 </html>
