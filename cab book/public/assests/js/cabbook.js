@@ -9,3 +9,6 @@
 // {
 //     ht.style.z-index:'1';
 // })
+const btn=document.getElementById('btn');
+console.log(btn.value);
+window.alert('hi');
