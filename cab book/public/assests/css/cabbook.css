@@ -90,7 +90,37 @@ td {
     background-color: blue;
     border-radius: 40px;
     padding: 20px;
-    float: none     ;
+    float: none;
     display: flex;
     box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.25);
+}
+
+.bglog {
+    background-image: url("https://img.freepik.com/free-vector/ginkgo-leaf-frame-design-colorful-background_53876-120237.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.log {
+    background: transparent;
+    border: 2px solid #495057;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    box-shadow: 40px 0px 10px #495057;
+}
+
+.loginput {
+    width: 50vh;
+    border-radius: 50px;
+    border: 0px;
+    height: 7vh;
+}
+
+.logicn {
+    color: cadetblue;
+    border: 2px solid gray;
+    width: 60px;
+    padding: 10px;
+    border-radius: 70px;
 }
